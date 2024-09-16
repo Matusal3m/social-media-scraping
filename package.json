@@ -1,0 +1,26 @@
+{
+  "name": "social-media-scraping",
+  "version": "1.0.0",
+  "description": "A nodejs app that allows to collect social media data",
+  "main": "src/index.js",
+  "keywords": [
+    "telegram",
+    "web-scraping",
+    "nodejs",
+    "puppeteer"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Matusal3m",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "puppeteer": "^23.3.0"
+  },
+  "type": "module"  
+}
